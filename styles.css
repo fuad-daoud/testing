@@ -11,3 +11,14 @@
   background-color: red;
   color: blue;
 }
+
+@media (max-width: 500px) {
+    body {
+      background-color: red;
+    }
+}
+@media (min-width: 500px) {
+  body {
+    background-color: cyan;
+  }
+}
