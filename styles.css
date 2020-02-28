@@ -1,3 +1,13 @@
 #feature {
   color: blue;
 }
+.test::before {
+  content: "Added this one: ";
+}
+.test:hover {
+  background-color: red:
+}
+.test::selection {
+  background-color: red;
+  color: blue;
+}
